@@ -1,0 +1,56 @@
+/* Para importar fuentes desde google fonts buscando por el nombre de la fuente y escogiendo el weigth, si es italic o bold, etc */
+@import url('https://fonts.googleapis.com/css2?family=Krona+One&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+/* Para utilizar variables en CSS3*/
+:root {
+    --color-hover2:rgb(12, 49, 131);
+
+    --fuente-krona: 'Krona One', sans-serif;
+}
+
+.presentacion__contenido__sobremi {
+    width: 65%;
+    display: flex;
+    flex-direction: column; /*Que los elementos tengan una dirección de arriba hacia abajo */
+    gap: 40px;
+}
+
+.presentacion__contenido__titulo2 {
+    font-size: 1.25rem;  
+    font-family: var(--fuente-krona);
+    text-align: justify;  /*Para justificar el texto a la izquierda y derecha */
+}
+
+.presentacion__contenido__titulo2:hover {
+    color: var(--color-hover2);
+}
+
+@media (max-width: 1200px) {
+    .presentacion__contenido__sobremi {
+        width: 85%;
+    }
+}
+
+@media (max-width: 807px) {
+    .presentacion__contenido__titulo2 {
+        font-size: 1.10rem;
+    }
+}
+
+@media (max-width: 550px) {
+    .presentacion__contenido__titulo2 {
+        font-size: 1rem;
+    }
+}
+
+@media (max-width:492px) {
+    .presentacion__contenido__titulo2 {
+        font-size: 0.9rem;
+    }
+}
+
+@media (max-width:240px) {
+    .presentacion__contenido__titulo2 {
+        font-size: 0.7rem;
+    }
+}
