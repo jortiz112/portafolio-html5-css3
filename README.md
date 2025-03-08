@@ -10,7 +10,7 @@
 
 ```sh
 
-El curso de HTML y CSS: Clases, Se centra en enseñar a los estudiantes sobre el Modelo de Caja, 
+El curso de HTML y CSS: Se centra en enseñar a los estudiantes sobre el Modelo de Caja, 
 la creación de clases en CSS, el Tamaño de Caja y la posición de elementos en la pantalla utilizando 
 Flexbox, responsividad y publicación de proyectos. A lo largo del curso, los participantes trabajarán 
 en un proyecto práctico, un Portafolio, donde aplicarán los conocimientos adquiridos para construir un 
